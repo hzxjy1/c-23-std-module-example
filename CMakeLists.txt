@@ -7,3 +7,5 @@ set(CMAKE_CXX_MODULE_STD 1)
 project(test LANGUAGES CXX)
 
 add_executable(test main.cpp)
+
+# target_link_options(test PRIVATE -static)
